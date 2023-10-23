@@ -1,0 +1,318 @@
+
+/* <!-----------BASE------------>*/
+:root {
+    --accent-color:#404BBF ;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+letter-spacing: 0.02em;
+color: #434455;
+background-color: #fff;
+   
+}
+.list { list-style: none;
+
+}
+
+.link {
+    text-decoration: none;
+color: inherit;}
+
+.button {
+    font-family: inherit;
+    cursor: pointer;
+}
+.address {
+    font-style: normal;
+}
+/* <!-----------HEDER------------> */
+.header {
+    
+    
+}
+.header-nav {
+}
+.header-nav-logo-link {
+color: #4D5AE5;
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 800;
+line-height: 1.17; 
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+}
+.header-nav-logo-accent {
+color: #2E2F42;
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-decoration: none;
+
+
+}
+.header-nav-list {
+    
+}
+.header-nav-item {
+}
+.header-nav-link {
+    color: #2E2F42;
+font-weight: 500;
+line-height: 1.5; 
+}
+.header-nav-link:active { color: #404BBF;
+text-decoration:underline;}
+.header-nav-link:hover {color: #404BBF;
+}
+.header-nav-link:focus {color: #404BBF;
+}
+.address {
+}
+.address-list {
+}
+.address-item {
+}
+.address-link {
+line-height: 1.5;
+}
+.address-link:active {color: #404BBF;}
+.address-link:hover {color: #404BBF;}
+.address-link:focus {color: #404BBF;}
+
+/* <!-----------Section hero------------> */
+
+.hero {background-color: #2E2F42;
+   
+}
+.hero-title {color: #FFF;
+text-align: center;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07; 
+letter-spacing: 0.02em;
+
+}
+.button {
+background: #4D5AE5;
+color: #FFF;
+font-weight: 500;
+line-height: 1.5; 
+letter-spacing: 0.04em;
+text-align: center;
+font-size: 16px;
+
+background: #4D5AE5;
+
+}
+.button:hover{
+background: var(--accent-color);
+}
+.button:focus{
+background: var(--accent-color);
+
+}
+
+/* <!-----------Section description------------> */
+.description {
+    
+}
+.description-list {
+
+
+}
+.description-item {
+
+}
+.description-title {
+color: #2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+
+}
+.description-p {
+line-height: 1.5;
+
+}
+
+
+/* <!-----------Section about------------> */
+.about {  
+}
+.about-title {
+color: #2E2F42;
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+text-transform: capitalize;
+letter-spacing: 0.02em;
+}
+.about-list {
+    
+}
+.about-item {
+}
+.about-img {
+  
+}
+
+
+
+/* <!-----------Section card------------> */
+.card {
+   
+    
+background: #F4F4FD;
+}
+.card-title {
+color: #2E2F42;
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11; 
+text-transform: capitalize;
+letter-spacing: 0.02em;
+}
+.card-list {
+}
+.card-item {background-color: #FFF;
+    
+justify-content: center;
+
+
+}
+.card-img {
+    
+}
+.card-hero {
+color: #2E2F42;
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.card-hero-profesion {
+    
+text-align: center;
+line-height: 1.5;
+}
+
+
+/* <!-----------Section footer------------>*/
+.footer {
+background: #2E2F42;
+
+}
+.footer-logo-link {
+color: #4D5AE5;
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 800;
+line-height: 1.17; 
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.footer-logo-link-accent {
+color: #F4F4FD;
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 800;
+line-height: 1.17; 
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+}
+
+.footer-finish {
+color: #F4F4FD;
+line-height: 1.5; 
+
+}
+
+/*============= PORTFOLIO ===========*/
+
+/*============= SECTION hero ===========*/
+.button-hero {
+
+
+}
+
+.button-hero-list {
+    
+}
+
+
+.button-hero-item-button {
+color:#4D5AE5;
+text-align: center;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+background: #F4F4FD ;
+}
+
+.button-hero-item-button:hover{
+color: #FFF;
+background: #404BBF;
+}
+.button-hero-item-button:focus{
+color: #FFF;
+background: #404BBF;
+}
+
+
+/*============= SECTION card ===========*/
+
+.portfolio-list {
+}
+.list {
+}
+.portfolio-item {
+   
+}
+.portfolio-link {
+    
+
+}
+.link {
+}
+.portfolio-img {
+   
+}
+.portfolio-link-title {
+color: #2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; 
+letter-spacing: 0.02em;
+
+}
+
+.portfolio-link-p {line-height: 1.5;
+    
+}
+
+/*
+.card-portfolio-link {
+color: #2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; 
+letter-spacing: 0.02em;
+}
+.card-portfolio-link-link {
+line-height: 1.5; 
+
+}
+*/
+
+/*============= SECTION PORTFOLIO ===========*/
