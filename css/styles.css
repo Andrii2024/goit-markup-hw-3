@@ -50,8 +50,6 @@ padding-left: 15px;
 margin-right: auto;
 margin-left: auto;
 
-outline: 2px solid red;
-outline-offset: -2px;
 }
 
 .visualli-hidden{
@@ -422,7 +420,7 @@ background: #404BBF;
 .list {
 }
 .portfolio-item {
-
+border-bottom: 1px solid #E7E9FC;;
 
 
 }
@@ -437,7 +435,7 @@ background: #404BBF;
 } 
 
 .portfolio-div{
-border: 1px solid #E7E9FC;
+
 padding-left: 16px;
 padding-right: 16px;
 margin-top: 32px;
