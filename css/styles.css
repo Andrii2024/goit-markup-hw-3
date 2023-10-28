@@ -80,6 +80,7 @@ justify-content: space-between;
 
 .header-nav {
     display: flex;
+    align-items: center;
     
 }
 .header-nav-logo-link {
@@ -128,12 +129,13 @@ text-decoration:underline;}
 .header-nav-link:focus {color: #404BBF;
 }
 .address {
+    display: flex;
+    align-items: center;
     
 }
 .address-list {
     display: flex;
     gap: 40px;
-    align-items: center;
 }
 .address-item {
 }
@@ -149,15 +151,12 @@ line-height: 1.5;
 
 
 
-  
-
-
 .hero {background-color: #2E2F42;
    
 }
 .container-hero {
-     padding-top: 188px;
-     padding-bottom: 188px;  
+padding-top: 188px;
+padding-bottom: 188px;  
 }
 
 .hero-title {
@@ -219,7 +218,7 @@ gap: 24px;
 
 }
 .description-title {
-    margin-bottom: 8p;
+margin-bottom: 8px;
 color: #2E2F42;
 font-size: 20px;
 font-weight: 500;
@@ -255,6 +254,7 @@ letter-spacing: 0.02em;
     
 }
 .about-item {
+    width: 360px;
     border: 1px solid #E7E9FC;
 }
 .about-img {
@@ -297,7 +297,8 @@ justify-content: center;
  
 .card-div{
     content: 56px 232px;
-    margin: 32px 16px;
+    padding: 32px 0px;
+    margin: 0px 16px;
 }
 
 
@@ -322,7 +323,8 @@ line-height: 1.5;
 
 .container-footer{
 
-padding: 100px 0 100px;
+padding-top: 100px;
+padding-bottom: 100px;
 
 
 }
@@ -367,7 +369,8 @@ line-height: 1.5;
 
 /*============= SECTION hero ===========*/
 .button-hero {
-
+padding-top: 96px;
+padding-bottom: 120px;
 
 }
 .container-button {
@@ -378,7 +381,6 @@ line-height: 1.5;
     display: flex;
    justify-content: center; 
     gap: 24px;
-    margin-top: 96px;
     margin-bottom: 72px;
 }
 
@@ -398,30 +400,29 @@ background: #F4F4FD ;
 .button-hero-item-button:hover{
 color: #FFF;
 background: #404BBF;
+border: 1px solid transparent;
 }
 .button-hero-item-button:focus{
 color: #FFF;
 background: #404BBF;
+border: 1px solid transparent;
 }
 
 
 /*============= SECTION card ===========*/
 
-.container-card {
-    padding-bottom: 120px;
-}
 
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px ;
-    
+    row-gap: 48px;
     
 }
 .list {
 }
 .portfolio-item {
-border-bottom: 1px solid #E7E9FC;;
+
 
 
 }
@@ -437,10 +438,9 @@ border-bottom: 1px solid #E7E9FC;;
 
 .portfolio-div{
 
-padding-left: 16px;
-padding-right: 16px;
-margin-top: 32px;
-margin-bottom: 32px;
+padding: 32px 16px;
+border: 1px solid #E7E9FC;
+
 }
 
 .portfolio-link-title {
