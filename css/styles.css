@@ -155,11 +155,7 @@ line-height: 1.5;
     background: #2E2F42;
 }
 
-.container-footer{
-    
-    
-    
-    }
+.container-footer{}
     .footer-logo-link {
     display: inline-block;
     margin-bottom: 16px;
@@ -243,6 +239,7 @@ background: var(--accent-color);
 background: var(--accent-color);
 
 }
+
 /* <!-----------Section description------------> */
 
 .section {
